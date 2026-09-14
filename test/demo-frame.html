@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <style>
+    body {
+      font: 13px/1.6 -apple-system, "Segoe UI", "Microsoft YaHei", sans-serif;
+      margin: 12px; color: #1f2328;
+    }
+    input, [contenteditable] {
+      width: 100%; padding: 6px 8px; margin: 6px 0 12px;
+      border: 1px solid #ccc; border-radius: 6px; font: inherit;
+    }
+    [contenteditable] { min-height: 40px; border-style: dashed; }
+  </style>
+</head>
+<body>
+  <p><b>iframe 子页面</b> —— 焦点在下面控件里时按 Alt+Q,面板应开在 iframe 内部:</p>
+  <input type="text" placeholder="iframe 里的单行输入框">
+  <div contenteditable="true">iframe 里的 contenteditable,点一下放光标。</div>
+</body>
+</html>

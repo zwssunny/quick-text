@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>快捷文本管理</title>
+  <link rel="stylesheet" href="options.css">
+</head>
+<body>
+  <header class="topbar">
+    <h1>快捷文本</h1>
+    <input id="search" type="search" placeholder="搜索标题 / 内容 / 关键字…">
+    <div class="topbar-actions">
+      <button id="btn-import" type="button">导入</button>
+      <button id="btn-export" type="button">导出</button>
+    </div>
+  </header>
+
+  <main>
+    <div id="import-bar" class="card import-bar" hidden>
+      <span id="import-count"></span>
+      <label><input type="radio" name="import-mode" value="merge" checked> 合并(追加,按内容去重)</label>
+      <label><input type="radio" name="import-mode" value="replace"> 覆盖(先自动备份当前数据)</label>
+      <span class="import-actions">
+        <button id="import-ok" class="primary" type="button">确认导入</button>
+        <button id="import-cancel" type="button">取消</button>
+      </span>
+    </div>
+
+    <section id="form-section" class="card">
+      <h2 id="form-heading">新增条目</h2>
+      <div class="field">
+        <label for="f-title">标题(可选)</label>
+        <input id="f-title" type="text" placeholder="便于识别的名字,如「常用邮箱」" maxlength="60">
+      </div>
+      <div class="field">
+        <label for="f-text">内容 <span class="req">*</span></label>
+        <textarea id="f-text" rows="4" placeholder="要插入的文字,支持多行"></textarea>
+      </div>
+      <div class="field">
+        <label for="f-keywords">关键字(可选,逗号分隔)</label>
+        <input id="f-keywords" type="text" placeholder="参与面板搜索的别名,如: 邮箱, email">
+      </div>
+      <div class="form-actions">
+        <button id="btn-save" class="primary" type="button">保存</button>
+        <button id="btn-cancel" type="button">取消</button>
+      </div>
+    </section>
+
+    <section class="card">
+      <div class="list-header">
+        <h2>全部条目</h2>
+        <span id="count" class="count-badge"></span>
+      </div>
+      <ul id="list"></ul>
+      <div id="empty" class="empty" hidden></div>
+    </section>
+  </main>
+
+  <div id="toast"></div>
+  <input type="file" id="file" accept=".json,application/json" hidden>
+  <script src="options.js"></script>
+</body>
+</html>
