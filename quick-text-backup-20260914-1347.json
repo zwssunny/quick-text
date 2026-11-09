@@ -1,0 +1,95 @@
+{
+  "version": 1,
+  "exportedAt": 1789364854707,
+  "snippets": [
+    {
+      "id": "3551b406-dba0-4493-9c10-8810dab08a2f",
+      "title": "AB功能",
+      "text": "AB功能不全，都差",
+      "keywords": [
+        "功能",
+        "都差"
+      ],
+      "createdAt": 1789364698259
+    },
+    {
+      "id": "04bc7f3e-1d36-4277-a8a8-2a50d9f31e84",
+      "title": "AB渲染",
+      "text": "AB渲染不全，都差",
+      "keywords": [
+        "AB",
+        "都差"
+      ],
+      "createdAt": 1789364624451
+    },
+    {
+      "id": "76bc96b6-f1e3-4202-8171-8be8257aaa8f",
+      "title": "B纯色",
+      "text": "B纯色，应跳过",
+      "keywords": [
+        "B纯色",
+        "跳过"
+      ],
+      "createdAt": 1789364446260
+    },
+    {
+      "id": "e94f1fd1-9e3a-4cb8-953b-d5e8c5b5799f",
+      "title": "A纯色",
+      "text": "A纯色，应跳过",
+      "keywords": [
+        "纯色"
+      ],
+      "createdAt": 1789364404484
+    },
+    {
+      "createdAt": 1789364260493,
+      "id": "14aa98c0-539b-432c-9987-79f8e3d449a1",
+      "keywords": [
+        "正确率",
+        "驳回"
+      ],
+      "text": "正确率低于90%",
+      "title": "驳回"
+    },
+    {
+      "createdAt": 1789364229728,
+      "id": "fec3e8bc-1ed1-4dd2-a4e4-dc7518f9aefb",
+      "keywords": [
+        "API",
+        "跳过"
+      ],
+      "text": "涉及API调用，应跳过",
+      "title": "API调用"
+    },
+    {
+      "createdAt": 1789364193150,
+      "id": "e4c3f9cd-f5ba-45bd-a2dc-7c578657e64c",
+      "keywords": [
+        "摄像头",
+        "跳过"
+      ],
+      "text": "摄像头调用，应跳过",
+      "title": "摄像头调用"
+    },
+    {
+      "createdAt": 1789364126821,
+      "id": "9f5b38fe-bbe2-4a81-a7cd-c316812a6e2e",
+      "keywords": [
+        "需求",
+        "跳过"
+      ],
+      "text": "需求不明，应跳过",
+      "title": "需求不明"
+    },
+    {
+      "createdAt": 1789363949597,
+      "id": "798b9f0c-0171-4a82-862f-dab6fded6759",
+      "keywords": [
+        "邮箱",
+        "email"
+      ],
+      "text": "zwssunny@qq.com",
+      "title": "常用邮箱"
+    }
+  ]
+}
